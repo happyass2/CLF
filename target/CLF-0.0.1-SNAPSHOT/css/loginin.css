@@ -1,0 +1,58 @@
+.user_header{
+	width: 500px;
+	height: 100%;
+	float: right;
+}
+
+.flo_l{
+	float: left;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	float: left;
+	margin-right: 20px;
+	font-size: 14px;
+	color: #4E5465;
+	cursor: pointer;
+}
+
+#user_icon{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #c2c2c2;
+	border-radius: 5px;
+
+}
+#user_about{
+	position: relative;
+}
+#user_my{
+	display: none;
+	
+	padding-top: 4px;
+	list-style: none;
+	width: 59px;
+	height: 55px;
+	background-color: #fff;
+	position: absolute;
+	border: 1px solid #000;
+}
+#user_my li{
+	display: block;
+	width: 50px;
+	text-align: center;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	margin: 0 auto;
+	border-top: 1px solid #000;
+}
+
+#user_about:hover #user_my{
+	display: block;
+}
+
+#user_my li:hover{
+
+	background-color: #bab;
+}
